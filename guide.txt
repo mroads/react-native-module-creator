@@ -1,0 +1,7 @@
+Follow below steps to create a sample react-native module
+
+npm i -g create-react-native-module
+create-react-native-module TestModule
+cd react-native-test-module
+react-native init example
+npm i
