@@ -5,3 +5,10 @@ create-react-native-module TestModule
 cd react-native-test-module
 react-native init example
 npm i
+npm i eslint@latest --SD
+npx eslint --init (pick enforce code style and react framework)
+npm i flow-bin@latest --SD
+npx flow init
+
+
+Copy .npmignore
