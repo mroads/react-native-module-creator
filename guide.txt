@@ -9,6 +9,7 @@ npm i eslint@latest --SD
 npx eslint --init (pick enforce code style and react framework)
 npm i flow-bin@latest --SD
 npx flow init
-
+npm i babel-eslint@latest --SD
+npm i eslint-plugin-babel@latest --SD
 
 Copy .npmignore
