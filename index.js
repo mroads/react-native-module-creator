@@ -9,7 +9,7 @@ const format = text => {
 let moduleName = process.argv.slice(2)[0];
 moduleName = format(moduleName);
 console.info('building module ',moduleName);
-const response  = shell.exec('sh ./module-creator.sh ' + moduleName)
+const response  = shell.exec('sh ./bin/module-creator.sh ' + moduleName)
 console.info('response',response);
 
 /*
