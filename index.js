@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 
 console.info('test')
 const shell = require('shelljs')
