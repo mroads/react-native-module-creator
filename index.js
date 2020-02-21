@@ -1,24 +1,16 @@
 #!/usr/bin/env node
 
-
-console.info('test')
 const shell = require('shelljs')
 
+const format = text => {
+    return text.replace( /([a-z])([A-Z])/g, '$1-$2' ).toLowerCase();
+}
 
-console.log(process.argv);
-
-
-const moduleName = process.argv.slice(2)[0];
-
+let moduleName = process.argv.slice(2)[0];
+moduleName = format(moduleName);
 console.info('building module ',moduleName);
-
-
 const response  = shell.exec('sh ./module-creator.sh ' + moduleName)
-
 console.info('response',response);
-
-
-
 
 /*
 npm i -g create-react-native-module
