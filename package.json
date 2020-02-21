@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mroads/react-native-module-creator#readme",
   "bin": {
-    "react-native-create-module": "index.js"
+    "react-native-module-creator": "index.js"
   },
   "dependencies": {
     "shelljs": "^0.8.3"
